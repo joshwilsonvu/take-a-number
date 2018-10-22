@@ -1,0 +1,10 @@
+{
+  "name": "takeanumber",
+  "version": "0.0.1",
+  "scripts": {
+    "start": "concurrently --kill-others \"cd client && npm start\" \"cd server && npm start\""
+  },
+  "devDependencies": {
+    "concurrently": "^4.0.1"
+  }
+}

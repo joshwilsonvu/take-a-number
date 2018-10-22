@@ -1,0 +1,22 @@
+{
+  "name": "takeanumber",
+  "version": "0.1.0",
+  "description": "A web tool to manage lines for office hours.",
+  "main": "src/server.js",
+  "dependencies": {
+    "cookie-session": "^2.0.0-beta.3",
+    "express": "^4.16.3",
+    "helmet": "^3.13.0",
+    "mongo": "^0.1.0",
+    "morgan": "^1.9.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.4"
+  },
+  "scripts": {
+    "start": "nodemon --watch src",
+    "test": "npm run test"
+  },
+  "author": "Josh Wilson",
+  "license": "ISC"
+}
