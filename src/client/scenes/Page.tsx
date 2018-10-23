@@ -9,8 +9,13 @@ import {BrowserRouter, Route, Switch} from 'react-router-dom';
  * @returns the jsx to be rendered
  */
 const Page = () => {
+  console.log("Rendering page!!!!!");
   return (
-    <h1>Hello world! Testing changes.</h1>
+    <BrowserRouter>
+      <Switch>
+        <h1>Hello world! Testing changes!</h1>
+      </Switch>
+    </BrowserRouter>
   );
 };
 

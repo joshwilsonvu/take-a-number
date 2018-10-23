@@ -6,4 +6,4 @@ import * as React from 'react';
 import * as ReactDOM from 'react-dom';
 import {Page} from "./scenes/Page";
 
-ReactDOM.render(<Page/>, document.getElementById('root'));
+ReactDOM.render(<Page/>, document.getElementById("root"));

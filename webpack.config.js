@@ -1,19 +1,17 @@
 /* Copyright G. Hemingway, 2018 - All rights reserved */
 'use strict';
 
-let path = require('path'),
-  webpack = require('webpack');
+let path = require('path');
+let webpack = require('webpack');
+let CleanWebpackPlugin = require('clean-webpack-plugin');
+let HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
   context: path.join(__dirname, './src/client/'),
   entry: './index.tsx',
   mode: 'development',
-  output: {
-    filename: '[name].js',
-    path: path.resolve(__dirname, 'public/js')
-  },
   resolve: {
-    extensions: ['.ts', '.tsx', '.js', '.json']
+    extensions: ['.ts', '.tsx', '.js', '.jsx', '.json', '.css', '.scss']
   },
   module: {
     rules: [
@@ -57,7 +55,18 @@ module.exports = {
   },
   devtool: "inline-source-map",
   devServer: {
-    contentBase: "./public"
+    contentBase: path.resolve(__dirname, 'dist')
   },
-  plugins: []
+  plugins: [
+    new CleanWebpackPlugin([path.resolve(__dirname, 'dist')]),
+    new HtmlWebpackPlugin({
+      hash: true,
+      showErrors: true,
+      template: path.resolve(__dirname, "template/index.html")
+    })
+  ],
+  output: {
+    filename: '[name].js',
+    path: path.resolve(__dirname, 'dist'),
+  }
 };
