@@ -1,10 +1,5 @@
 import * as React from 'react'
 import {BrowserRouter, Route, Switch} from 'react-router-dom';
-import {Landing} from './Landing/Landing' // landing page
-import {Profile} from './Profile/Profile' // profile page
-import {Org} from './Org/Org'; // org page
-import {NotFound} from './NotFound/NotFound'; // page not found
-import '../css/index.css';
 
 /**
  * Because this single page app is so simple, it is sufficient to switch
@@ -13,24 +8,9 @@ import '../css/index.css';
  *
  * @returns the jsx to be rendered
  */
-let Page = props => {
+const Page = () => {
   return (
-    <BrowserRouter>
-      <Switch>
-        <Route exact path="/" component={Landing}/>
-        <Route exact path="/profile/" render={props =>
-          <Profile {...props} email="joshua.wilson@vanderbilt.edu"/>
-        }/>
-        <Route path="/profile/:email" render={props =>
-          <Profile {...props} email={decodeURIComponent(props.match.params.email)}/>
-        }/>
-        <Route path="/org/:name" render={props =>
-          <Org {...props} name={props.match.params.name}/>
-        }/>
-        <Route path="/404" component={NotFound}/>
-        <Route component={NotFound}/>
-      </Switch>
-    </BrowserRouter>
+    <h1>Hello world!</h1>
   );
 };
 
