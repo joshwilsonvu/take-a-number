@@ -13,7 +13,7 @@ interface IAjaxSettings {
  * @param settings options associated with the request
  * @return Promise<object> Promise for success and failure, both given objects from the server
  */
-let ajax = (url: string, settings: IAjaxSettings = {}) => {
+const ajax = (url: string, settings: IAjaxSettings = {}) => {
   return new Promise<object>((resolve, reject) => {
     // add default method
     settings.method = (settings.method || 'GET').toUpperCase();
