@@ -2,31 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="efa68814-a387-4efe-a877-4bb80097508e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/client/src/scenes/Landing/Landing.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/client/images.d.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/images.d.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/client/img/Logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/client/img/Logo.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/client/img/adults-brainstorming-business-1246742.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/img/adults-brainstorming-business-1246742.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/client/img/advice-advise-advisor-7096.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/img/advice-advise-advisor-7096.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/client/img/img1-1920x1280.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/img/img1-1920x1280.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/client/img/img1-960x640.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/img/img1-960x640.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/client/img/logo_512x512.png" beforeDir="false" afterPath="$PROJECT_DIR$/client/img/logo_512x512.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/client/img/mp.png" beforeDir="false" afterPath="$PROJECT_DIR$/client/img/mp.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/client/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/client/registerServiceWorker.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/registerServiceWorker.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/client/scenes/Page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/scenes/Page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/client/services/Ajax.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/services/Ajax.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/client/services/Debounce.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/services/Debounce.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/client/services/Theme.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/services/Theme.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/server/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/server/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/routes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/server/template/favicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/server/template/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/template/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/scenes/Landing/Landing.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/scenes/Page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/scenes/Page.tsx" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -52,13 +30,13 @@
           <entry key="css" value="2" />
           <entry key="gitignore" value="2" />
           <entry key="html" value="19" />
-          <entry key="js" value="64" />
+          <entry key="js" value="65" />
           <entry key="json" value="66" />
           <entry key="map" value="1" />
           <entry key="md" value="3" />
           <entry key="scss" value="4" />
           <entry key="ts" value="8" />
-          <entry key="tsx" value="42" />
+          <entry key="tsx" value="46" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -66,13 +44,13 @@
           <entry key="CSS" value="2" />
           <entry key="HTML" value="19" />
           <entry key="JSON" value="57" />
-          <entry key="JavaScript" value="64" />
+          <entry key="JavaScript" value="65" />
           <entry key="Markdown" value="3" />
           <entry key="PLAIN_TEXT" value="2" />
           <entry key="SCSS" value="4" />
           <entry key="SourceMap" value="1" />
           <entry key="TypeScript" value="8" />
-          <entry key="TypeScript JSX" value="42" />
+          <entry key="TypeScript JSX" value="46" />
           <entry key="tsconfig" value="9" />
         </counts>
       </usages-collector>
@@ -86,7 +64,7 @@
           <entry key="html" value="55" />
           <entry key="js" value="936" />
           <entry key="json" value="501" />
-          <entry key="tsx" value="339" />
+          <entry key="tsx" value="369" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -94,7 +72,7 @@
           <entry key="HTML" value="55" />
           <entry key="JSON" value="462" />
           <entry key="JavaScript" value="936" />
-          <entry key="TypeScript JSX" value="339" />
+          <entry key="TypeScript JSX" value="369" />
           <entry key="tsconfig" value="39" />
         </counts>
       </usages-collector>
@@ -104,10 +82,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/package.json">
+        <entry file="file://$PROJECT_DIR$/server/src/routes.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="29" column="34" lean-forward="true" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="34" />
+            <state relative-caret-position="255">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
             </state>
           </provider>
         </entry>
@@ -161,8 +139,8 @@
         <option value="$PROJECT_DIR$/client/src/scenes/Landing/Landing.tsx" />
         <option value="$PROJECT_DIR$/client/src/index.tsx" />
         <option value="$PROJECT_DIR$/webpack.config.js" />
-        <option value="$PROJECT_DIR$/client/src/scenes/Page.tsx" />
         <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/client/src/scenes/Page.tsx" />
       </list>
     </option>
   </component>
@@ -337,23 +315,23 @@
       <updated>1540169545116</updated>
       <workItem from="1540169546600" duration="2816000" />
       <workItem from="1540323142069" duration="2277000" />
-      <workItem from="1540348307092" duration="8036000" />
+      <workItem from="1540348307092" duration="8460000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17958000" />
+    <option name="totallyTimeSpent" value="18382000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="720" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28355837" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28355837" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32854864" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.46019107" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.46019107" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -361,7 +339,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="TypeScript" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.35191083" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.35191083" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -415,9 +393,6 @@
     <entry file="file://$PROJECT_DIR$/README.md" />
     <entry file="file://$PROJECT_DIR$/server/package.json" />
     <entry file="file://$PROJECT_DIR$/client/package.json" />
-    <entry file="file://$PROJECT_DIR$/client/src/images.d.tsx">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/js/main.js.map" />
     <entry file="file://$PROJECT_DIR$/public/js/vendor.js" />
     <entry file="file://$PROJECT_DIR$/public/js/main.js" />
@@ -431,23 +406,6 @@
     <entry file="file://$PROJECT_DIR$/server/template/manifest.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/registerServiceWorker.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9">
-          <caret line="11" column="28" lean-forward="true" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/routes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="136" lean-forward="true" selection-start-line="136" selection-end-line="136" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/server/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -459,13 +417,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="21" column="33" lean-forward="true" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/scenes/Landing/Landing.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="30" selection-start-column="30" selection-end-column="30" />
         </state>
       </provider>
     </entry>
@@ -493,13 +444,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/scenes/Page.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="43" selection-start-line="1" selection-start-column="43" selection-end-line="1" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/webpack.config.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -521,6 +465,43 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
           <caret line="29" column="34" lean-forward="true" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/scenes/Page.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/scenes/Landing/Landing.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="30" selection-start-column="30" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/images.d.tsx">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/registerServiceWorker.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1695">
+          <caret line="113" column="7" lean-forward="true" selection-start-line="113" selection-start-column="7" selection-end-line="113" selection-end-column="7" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/routes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
