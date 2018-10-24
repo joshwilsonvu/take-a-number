@@ -4,6 +4,8 @@
 
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
-import {Page} from "./scenes/Page";
+import {Page} from './scenes/Page';
+
+import "bootstrap3/dist/css/bootstrap.min.css";
 
 ReactDOM.render(<Page/>, document.getElementById("root"));

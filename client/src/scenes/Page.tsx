@@ -1,5 +1,6 @@
 import * as React from 'react'
 import {BrowserRouter, Route, Switch} from 'react-router-dom';
+import {Jumbotron} from 'react-bootstrap';
 
 /**
  * Because this single page app is so simple, it is sufficient to switch
@@ -13,7 +14,8 @@ const Page = () => {
   return (
     <BrowserRouter>
       <Switch>
-        <h1>Hello world! Testing changes!</h1>
+        <Route render={props =>
+          <Jumbotron><h1>Hello world!</h1><p>Testing changes.</p></Jumbotron>}/>
       </Switch>
     </BrowserRouter>
   );

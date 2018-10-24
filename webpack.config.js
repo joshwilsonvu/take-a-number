@@ -7,7 +7,7 @@ let CleanWebpackPlugin = require('clean-webpack-plugin');
 let HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
-  context: path.join(__dirname, './src/client/'),
+  context: path.join(__dirname, './client/src/'),
   entry: './index.tsx',
   mode: 'development',
   resolve: {
@@ -28,18 +28,18 @@ module.exports = {
         loader: 'source-map-loader'
       },
       {
-        test: /\.js$/,
-        exclude: /node_modules/,
-        use: ['babel-loader']
-      },
-      {
         test: /\.scss$/,
         use: ['scss-loader']
       },
       {
         test: /\.css$/,
         use: ['style-loader', 'css-loader']
-      }
+      },
+      // for bootstrap's fonts and other files
+      { test: /\.eot(\?v=\d+\.\d+\.\d+)?$/, loader: "file-loader" },
+      { test: /\.(woff|woff2)$/, loader:"url-loader?prefix=font/&limit=5000" },
+      { test: /\.ttf(\?v=\d+\.\d+\.\d+)?$/, loader: "url-loader?limit=10000&mimetype=application/octet-stream" },
+      { test: /\.svg(\?v=\d+\.\d+\.\d+)?$/, loader: "url-loader?limit=10000&mimetype=image/svg+xml" }
     ]
   },
   optimization: {
@@ -58,11 +58,11 @@ module.exports = {
     contentBase: path.resolve(__dirname, 'dist')
   },
   plugins: [
-    new CleanWebpackPlugin([path.resolve(__dirname, 'dist')]),
+    //new CleanWebpackPlugin(/[path.resolve(__dirname, 'dist')]),
     new HtmlWebpackPlugin({
       hash: true,
       showErrors: true,
-      template: path.resolve(__dirname, "template/index.html")
+      template: path.resolve(__dirname, "server/template/index.html")
     })
   ],
   output: {

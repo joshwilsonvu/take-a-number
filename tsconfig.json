@@ -9,7 +9,7 @@
     "allowJs": false,
     "jsx": "react",
     "moduleResolution": "node",
-    "rootDir": "./src/client",
+    "rootDir": "./client/src/",
     "forceConsistentCasingInFileNames": true,
     "noImplicitReturns": true,
     "noImplicitThis": true,
@@ -22,11 +22,9 @@
   },
   "exclude": [
     "node_modules",
+    "dist",
     "build",
     "scripts",
-    "acceptance-tests",
-    "webpack",
-    "jest",
-    "src/setupTests.ts"
+    "webpack"
   ]
 }

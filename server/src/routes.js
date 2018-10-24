@@ -130,8 +130,7 @@ module.exports = app => {
       res.status(400).send({error: "name field required"});
       return;
     }
-    let orgs = app.orgs.filter(org => org.name.startsWith(data.search)).map(org => org.name);
+    let orgs = app.orgs.map(org => org.name).filter(name => name.startsWith(data.search)).slice(0, 10);
     res.status(200).send(orgs);
   });
 };
-
